@@ -2,6 +2,8 @@
 
 *Scheduling system for mock DECA conferences*
 
+> **This is not a new project.** It is a copy of [isabella354/Event-Scheduler](https://github.com/isabella354/Event-Scheduler), published here so my own contributions to it are readable in one place. The scheduler was written by Grace Xu and Isabella Yu. My work on it was done in July 2026 in the original repository, before this copy existed, so the commit history here is just the import and does not reflect when the work happened. The four commits are described under [What I contributed](#what-i-contributed), each linked to the original.
+
 A comprehensive event scheduling system with both Go and Python implementations. This tool automatically assigns students to events, schedules judges, manages room capacity, and handles exam scheduling for competitive events.
 
 ## Features
@@ -16,7 +18,7 @@ A comprehensive event scheduling system with both Go and Python implementations.
 
 ## What I contributed
 
-This repository is a copy of [isabella354/Event-Scheduler](https://github.com/isabella354/Event-Scheduler), where the scheduler was originally written by Grace Xu and Isabella Yu for our DECA chapter's mock conference. My work on it was four commits in July 2026, described below. Each one links to the commit in the original repository.
+The scheduler was originally written by Grace Xu and Isabella Yu for our DECA chapter's mock conference. My work on it was four commits made on July 13, 2026, in [isabella354/Event-Scheduler](https://github.com/isabella354/Event-Scheduler), months before this copy was created. Each heading below links to the original commit, which is where the real history and dates live.
 
 ### Excel output, reproducible runs, and a working Python port ([69eff1c](https://github.com/isabella354/Event-Scheduler/commit/69eff1c))
 
