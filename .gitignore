@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+/output.csv
+/output.log
+/schedule.xlsx
+.DS_Store

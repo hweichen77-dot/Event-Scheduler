@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option go_package = "components/proto";
+
+message Room {
+	string name = 1;
+	int32 judgeCapacity = 2;
+	EventType eventType = 3;
+}
+
+enum EventType {
+	ROLEPLAY = 0;
+	WRITTEN = 1;
+}
+
+message Event {
+	string id = 1;
+	EventType eventType = 2;
+}
+
+message Judge {
+	int32 number = 1;
+	string firstname = 2;
+	string lastname = 3;
+	repeated string judgeable = 4;
+}
+
+message Student {
+	string email = 1;
+	string firstname = 2;
+	string lastname = 3;
+}

@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option go_package = "components/proto";
+
+import "proto/types.proto";
+
+//parameters
+
+message Time {
+    int64 start = 1;
+    repeated int32 divisions = 2;
+}
+
+message Constraints {
+    int32 groupSize = 1;
+    int32 examLength = 2;
+}
+
+//requests
+
+message Registration {
+    repeated Student students = 1;
+    repeated Judge judges = 2;
+    repeated Room rooms = 3;
+    repeated Event events = 4;
+}
+
+message StudentRequest {
+    string event = 1;
+    repeated string group = 2;
+}

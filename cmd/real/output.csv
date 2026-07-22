@@ -1,0 +1,359 @@
+Start,End,Type,Room,Judge,Event,Participants
+9:00AM,9:40AM,Event,C307 (ROLEPLAY),15 - Sage Ibsen,PMK,Vera Jessup
+9:00AM,9:40AM,Event,C307 (ROLEPLAY),24 - Quill Larkspur,PMK,Tobin Rothwell
+9:00AM,9:40AM,Event,C307 (ROLEPLAY),30 - Yuki Ellingham,PEN,Hale Gilchrist
+9:00AM,9:40AM,Event,C307 (ROLEPLAY),36 - Rune Hawthorne,PBM,Quinn Prescott
+9:00AM,9:40AM,Event,C307 (ROLEPLAY),42 - Cove Lockwood,HRM,Sable Stroud
+9:00AM,9:40AM,Event,C309 (ROLEPLAY),25 - Cody Lockwood,PMK,Bodhi Pruitt
+9:00AM,9:40AM,Event,C309 (ROLEPLAY),31 - Hale Merriweather,PHT,Greer Vandermeer
+9:00AM,9:40AM,Event,C309 (ROLEPLAY),37 - Rune Doyle,PMK,Maren Hemsworth
+9:00AM,9:40AM,Event,C309 (ROLEPLAY),38 - Onyx Halloway,RFSM,Briar Zaragoza
+9:00AM,9:40AM,Event,C309 (ROLEPLAY),43 - Prin Stroud,RFSM,Ember Upshaw
+9:00AM,9:40AM,Event,C408 (ROLEPLAY),12 - Zephyr Yarrow,TTDM,"Gale Grimsby, River Lemoine"
+9:00AM,9:40AM,Event,C408 (ROLEPLAY),26 - Odin Nakamura,PHT,Orion Whitfield
+9:00AM,9:40AM,Event,C408 (ROLEPLAY),32 - Grayson Quarles,PHT,Ford Kingsley
+9:00AM,9:40AM,Event,C408 (ROLEPLAY),39 - Wynn Kettering,HLM,Fable Wrenfield
+9:00AM,9:40AM,Event,C410 (ROLEPLAY),13 - Odin Follett,MTDM,"Rory Zimmerman, Ollie Ulster"
+9:00AM,9:40AM,Event,C410 (ROLEPLAY),22 - Wilder Cranfield,PEN,Wesley Edgerton
+9:00AM,9:40AM,Event,C410 (ROLEPLAY),28 - Nell Kettering,PHT,Quill Caldwell
+9:00AM,9:40AM,Event,C410 (ROLEPLAY),34 - Arden Goodwin,PHT,Zion Somerset
+9:00AM,9:40AM,Event,C410 (ROLEPLAY),40 - Neve Quillon,SEM,Nico Dunmore
+9:00AM,9:40AM,Event,C413 (WRITTEN),17 - Kit Lockwood,IMCP,"Arden Vandermeer, Alex Underwood, Kit Dorsey"
+9:00AM,9:40AM,Event,C413 (WRITTEN),19 - Cody Lindqvist,IMCP,Emerson Vandergrift
+9:00AM,9:40AM,Event,C413 (WRITTEN),2 - Kai Tilden,SEOR,"Avery Lockwood, Yara Rutherford, Adrian Ibsen"
+9:00AM,9:40AM,Event,C413 (WRITTEN),21 - Sawyer Dorsey,FCE,Jesse Castellano
+9:00AM,9:40AM,Event,C413 (WRITTEN),4 - Ulla Kilgore,BMOR,"Shiloh Nakamura, Parker Vasquez"
+9:00AM,9:40AM,Event,C415 (ROLEPLAY),14 - Gio Upshaw,PMK,Remy Hemsworth
+9:00AM,9:40AM,Event,C415 (ROLEPLAY),23 - Vesper Ibsen,PEN,Esme Wexford
+9:00AM,9:40AM,Event,C415 (ROLEPLAY),29 - Gale Kilgore,PEN,Eden Wilcox
+9:00AM,9:40AM,Event,C415 (ROLEPLAY),35 - Skyler Quillon,PEN,Kai Umberto
+9:00AM,9:40AM,Event,C415 (ROLEPLAY),41 - Haven Dorsey,MCS,Gio Ivanov
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),1 - Wynn Quimby,BMOR,"Kit Bracken, Caelan Ibsen, Fern Abbott"
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),10 - Reagan Brightwater,ESB,"Thea Selwyn, Hale Granger"
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),11 - Mars Yarrow,EIP,"Oakley Langford, Prin Larkspur"
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),16 - Rowan Hollingsworth,PMBS,"Ford Merriweather, Cameron Quimby"
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),18 - Nico Barlow,IMCP,"Kai Nesbitt, Skyler Gilchrist"
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),20 - Bailey Yale,IMCP,Cass Novak
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),3 - Pax Dunmore,SEOR,"Amari Zamora, Fern Grimsby"
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),5 - Bodhi Kirkpatrick,BMOR,"Cyan Ashby, Dune Vandergrift"
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),6 - Yara Zamora,BOR,Remy Fitzgerald
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),7 - Umi Quillon,HTPS,Jamie Alderton
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),8 - Cody Prescott,EIB,"Hollis Edgerton, Zara Nesbitt, Lane Galloway"
+9:00AM,9:40AM,Event,Conservatory Hall (WRITTEN),9 - Miles Vandermeer,EFB,"Opal Thackery, Rune Hemsworth, Hollis Kirkpatrick"
+9:00AM,9:40AM,Event,TBD (ROLEPLAY),27 - Tanner Castellano,PBM,Lior Selwyn
+9:00AM,9:40AM,Event,TBD (ROLEPLAY),33 - Nico Wrenfield,PEN,Sol Ingram
+9:40AM,10:20AM,Event,C307 (ROLEPLAY),15 - Sage Ibsen,ENT,Noel Thornbury
+9:40AM,10:20AM,Event,C307 (ROLEPLAY),24 - Quill Larkspur,PHT,Blake Lindqvist
+9:40AM,10:20AM,Event,C307 (ROLEPLAY),30 - Yuki Ellingham,PBM,Vin Fitzgerald
+9:40AM,10:20AM,Event,C307 (ROLEPLAY),36 - Rune Hawthorne,PBM,Cody Quintero
+9:40AM,10:20AM,Event,C307 (ROLEPLAY),42 - Cove Lockwood,RFSM,Winter Selwyn
+9:40AM,10:20AM,Event,C309 (ROLEPLAY),25 - Cody Lockwood,PFN,Zephyr Kowalski
+9:40AM,10:20AM,Event,C309 (ROLEPLAY),31 - Hale Merriweather,PBM,Nox Cranfield
+9:40AM,10:20AM,Event,C309 (ROLEPLAY),37 - Rune Doyle,PMK,Caelan Novak
+9:40AM,10:20AM,Event,C309 (ROLEPLAY),38 - Onyx Halloway,QSRM,Wesley Zeller
+9:40AM,10:20AM,Event,C309 (ROLEPLAY),43 - Prin Stroud,HLM,Dov Northcott
+9:40AM,10:20AM,Event,C408 (ROLEPLAY),12 - Zephyr Yarrow,BTDM,"Lumen Tremaine, Nell Marbury"
+9:40AM,10:20AM,Event,C408 (ROLEPLAY),26 - Odin Nakamura,PHT,Harper Underwood
+9:40AM,10:20AM,Event,C408 (ROLEPLAY),32 - Grayson Quarles,PBM,Nox Rutherford
+9:40AM,10:20AM,Event,C408 (ROLEPLAY),39 - Wynn Kettering,RFSM,Parker Westbrook
+9:40AM,10:20AM,Event,C410 (ROLEPLAY),13 - Odin Follett,STDM,"Shiloh Ellingham, Shiloh Quarles"
+9:40AM,10:20AM,Event,C410 (ROLEPLAY),22 - Wilder Cranfield,PMK,Devon Bellweather
+9:40AM,10:20AM,Event,C410 (ROLEPLAY),28 - Nell Kettering,PEN,Ollie Ito
+9:40AM,10:20AM,Event,C410 (ROLEPLAY),34 - Arden Goodwin,PEN,Oakley Hawthorne
+9:40AM,10:20AM,Event,C410 (ROLEPLAY),40 - Neve Quillon,RFSM,Wynn Wrenfield
+9:40AM,10:20AM,Event,C413 (WRITTEN),17 - Kit Lockwood,IMCS,"Emerson Pruitt, Remy Ormsby, Haven Bellweather"
+9:40AM,10:20AM,Event,C413 (WRITTEN),19 - Cody Lindqvist,PSE,Bodhi Ellingham
+9:40AM,10:20AM,Event,C413 (WRITTEN),2 - Kai Tilden,BOR,"Lumen Brightwater, Wynn Ellingham, Keaton Oakhurst"
+9:40AM,10:20AM,Event,C413 (WRITTEN),21 - Sawyer Dorsey,ESB,Denver Jorgensen
+9:40AM,10:20AM,Event,C413 (WRITTEN),4 - Ulla Kilgore,BOR,"Bellamy Ashby, Umi Mortimer"
+9:40AM,10:20AM,Event,C415 (ROLEPLAY),14 - Gio Upshaw,PFN,Denver Chandler
+9:40AM,10:20AM,Event,C415 (ROLEPLAY),23 - Vesper Ibsen,PFN,Dakota Bellweather
+9:40AM,10:20AM,Event,C415 (ROLEPLAY),29 - Gale Kilgore,PBM,Indigo Follett
+9:40AM,10:20AM,Event,C415 (ROLEPLAY),35 - Skyler Quillon,PFN,Rory Nakamura
+9:40AM,10:20AM,Event,C415 (ROLEPLAY),41 - Haven Dorsey,HRM,Gio Stroud
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),1 - Wynn Quimby,BMOR,"Poe Doyle, Haven Pickering, Wesley Ellery"
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),10 - Reagan Brightwater,EFB,"Hollis Tanaka, Cameron Fitzgerald"
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),11 - Mars Yarrow,ESB,"Zara Quimby, Adrian Ellingham"
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),16 - Rowan Hollingsworth,HTPS,Delaney Ostrander
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),18 - Nico Barlow,IMCS,"River Cranfield, Umi Grimsby"
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),20 - Bailey Yale,IBP,Tatum Quillon
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),3 - Pax Dunmore,BOR,"Brix Nesbitt, Cass Dorsey"
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),5 - Bodhi Kirkpatrick,HTOR,Iris Nesbitt
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),6 - Yara Zamora,BMOR,Echo Harrowgate
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),7 - Umi Quillon,HTPS,Odin Wexford
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),8 - Cody Prescott,IBP,"Logan Quarles, Tanner Thackery, Neve Castellano"
+9:40AM,10:20AM,Event,Conservatory Hall (WRITTEN),9 - Miles Vandermeer,ESB,"Rory Zaragoza, Denver Danforth, Linden Larkspur"
+9:40AM,10:20AM,Event,TBD (ROLEPLAY),27 - Tanner Castellano,PBM,Thea Tilden
+9:40AM,10:20AM,Event,TBD (ROLEPLAY),33 - Nico Wrenfield,PHT,Opal Granger
+10:20AM,11:00AM,Event,C307 (ROLEPLAY),24 - Quill Larkspur,PFN,Dov Ivanov
+10:20AM,11:00AM,Event,C307 (ROLEPLAY),30 - Yuki Ellingham,PEN,Vin Underwood
+10:20AM,11:00AM,Event,C307 (ROLEPLAY),36 - Rune Hawthorne,PHT,Hollis Kirkpatrick
+10:20AM,11:00AM,Event,C307 (ROLEPLAY),42 - Cove Lockwood,FMS,Nova Halloway
+10:20AM,11:00AM,Event,C309 (ROLEPLAY),25 - Cody Lockwood,PEN,Fern Grimsby
+10:20AM,11:00AM,Event,C309 (ROLEPLAY),31 - Hale Merriweather,PFN,Jules Zamora
+10:20AM,11:00AM,Event,C309 (ROLEPLAY),37 - Rune Doyle,PEN,Rune Hemsworth
+10:20AM,11:00AM,Event,C309 (ROLEPLAY),38 - Onyx Halloway,PFL,Hollis Edgerton
+10:20AM,11:00AM,Event,C309 (ROLEPLAY),43 - Prin Stroud,HRM,Avery Lockwood
+10:20AM,11:00AM,Event,C408 (ROLEPLAY),12 - Zephyr Yarrow,STDM,"Ford Merriweather, Skyler Edgerton"
+10:20AM,11:00AM,Event,C408 (ROLEPLAY),26 - Odin Nakamura,PBM,Oakley Langford
+10:20AM,11:00AM,Event,C408 (ROLEPLAY),32 - Grayson Quarles,PMK,Fern Abbott
+10:20AM,11:00AM,Event,C408 (ROLEPLAY),39 - Wynn Kettering,AAM,Emerson Vandergrift
+10:20AM,11:00AM,Event,C410 (ROLEPLAY),13 - Odin Follett,FTDM,"Lior Wrenfield, Cameron Quimby"
+10:20AM,11:00AM,Event,C410 (ROLEPLAY),22 - Wilder Cranfield,PHT,Kit Bracken
+10:20AM,11:00AM,Event,C410 (ROLEPLAY),28 - Nell Kettering,PEN,Parker Vasquez
+10:20AM,11:00AM,Event,C410 (ROLEPLAY),34 - Arden Goodwin,PEN,Opal Thackery
+10:20AM,11:00AM,Event,C410 (ROLEPLAY),40 - Neve Quillon,AAM,Shiloh Nakamura
+10:20AM,11:00AM,Event,C413 (WRITTEN),17 - Kit Lockwood,IMCP,"Quinn Prescott, Blake Thornbury, Ollie Hollingsworth"
+10:20AM,11:00AM,Event,C413 (WRITTEN),19 - Cody Lindqvist,EIP,Nico Dunmore
+10:20AM,11:00AM,Event,C413 (WRITTEN),2 - Kai Tilden,BOR,"Briar Zaragoza, Fable Pickering"
+10:20AM,11:00AM,Event,C413 (WRITTEN),21 - Sawyer Dorsey,IMCP,Casey Quintanilla
+10:20AM,11:00AM,Event,C413 (WRITTEN),4 - Ulla Kilgore,HTOR,"Gio Dorsey, Zion Somerset"
+10:20AM,11:00AM,Event,C415 (ROLEPLAY),23 - Vesper Ibsen,PHT,Arden Vandermeer
+10:20AM,11:00AM,Event,C415 (ROLEPLAY),29 - Gale Kilgore,PEN,Iris Ivanov
+10:20AM,11:00AM,Event,C415 (ROLEPLAY),35 - Skyler Quillon,PFN,Remy Fitzgerald
+10:20AM,11:00AM,Event,C415 (ROLEPLAY),41 - Haven Dorsey,HRM,Onyx Gilchrist
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),1 - Wynn Quimby,BOR,"Greer Vandermeer, Sol Ingram, Sasha Thackery"
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),10 - Reagan Brightwater,ESB,"Casey Lindqvist, Orion Whitfield"
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),11 - Mars Yarrow,EFB,"Ford Kingsley, Maren Hemsworth"
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),16 - Rowan Hollingsworth,HTPS,Fable Wrenfield
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),18 - Nico Barlow,IMCS,"Rune Hollingsworth, Tatum Bracken"
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),20 - Bailey Yale,EIP,Kai Umberto
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),3 - Pax Dunmore,BOR,"Cameron Ivanov, Onyx Lockwood"
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),5 - Bodhi Kirkpatrick,SEOR,Hana Zamora
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),6 - Yara Zamora,FOR,Fable Quintanilla
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),7 - Umi Quillon,HTPS,Opal Vasquez
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),8 - Cody Prescott,EIP,"Eden Wilcox, Hale Gilchrist, Vale Sandoval"
+10:20AM,11:00AM,Event,Conservatory Hall (WRITTEN),9 - Miles Vandermeer,IBP,"Wesley Edgerton, Palmer Zimmerman"
+10:20AM,11:00AM,Event,TBD (ROLEPLAY),27 - Tanner Castellano,PMK,Cass Novak
+10:20AM,11:00AM,Event,TBD (ROLEPLAY),33 - Nico Wrenfield,PFN,Skyler Gilchrist
+11:00AM,11:40AM,Event,C307 (ROLEPLAY),15 - Sage Ibsen,FMS,Lumen Brightwater
+11:00AM,11:40AM,Event,C307 (ROLEPLAY),24 - Quill Larkspur,PMK,Amari Zamora
+11:00AM,11:40AM,Event,C307 (ROLEPLAY),30 - Yuki Ellingham,PBM,Zara Nesbitt
+11:00AM,11:40AM,Event,C307 (ROLEPLAY),36 - Rune Hawthorne,PEN,Denver Jorgensen
+11:00AM,11:40AM,Event,C307 (ROLEPLAY),42 - Cove Lockwood,ENT,Cameron Fitzgerald
+11:00AM,11:40AM,Event,C309 (ROLEPLAY),25 - Cody Lockwood,PMK,Poe Doyle
+11:00AM,11:40AM,Event,C309 (ROLEPLAY),31 - Hale Merriweather,PEN,Bellamy Ashby
+11:00AM,11:40AM,Event,C309 (ROLEPLAY),37 - Rune Doyle,PMK,Echo Harrowgate
+11:00AM,11:40AM,Event,C309 (ROLEPLAY),38 - Onyx Halloway,RFSM,Delaney Ostrander
+11:00AM,11:40AM,Event,C309 (ROLEPLAY),43 - Prin Stroud,ASM,Adrian Ibsen
+11:00AM,11:40AM,Event,C408 (ROLEPLAY),12 - Zephyr Yarrow,BLTDM,"Thea Selwyn, Hale Granger"
+11:00AM,11:40AM,Event,C408 (ROLEPLAY),26 - Odin Nakamura,PBM,Brix Nesbitt
+11:00AM,11:40AM,Event,C408 (ROLEPLAY),32 - Grayson Quarles,PMK,Haven Bellweather
+11:00AM,11:40AM,Event,C408 (ROLEPLAY),39 - Wynn Kettering,HRM,Bodhi Ellingham
+11:00AM,11:40AM,Event,C410 (ROLEPLAY),13 - Odin Follett,BTDM,"River Cranfield, Umi Grimsby"
+11:00AM,11:40AM,Event,C410 (ROLEPLAY),22 - Wilder Cranfield,PEN,Caelan Ibsen
+11:00AM,11:40AM,Event,C410 (ROLEPLAY),28 - Nell Kettering,PHT,Cass Dorsey
+11:00AM,11:40AM,Event,C410 (ROLEPLAY),34 - Arden Goodwin,PFN,Umi Mortimer
+11:00AM,11:40AM,Event,C410 (ROLEPLAY),40 - Neve Quillon,RMS,Tatum Quillon
+11:00AM,11:40AM,Event,C413 (WRITTEN),17 - Kit Lockwood,IMCE,"Thea Tilden, Dov Northcott"
+11:00AM,11:40AM,Event,C413 (WRITTEN),19 - Cody Lindqvist,IMCS,Quill Caldwell
+11:00AM,11:40AM,Event,C413 (WRITTEN),2 - Kai Tilden,BMOR,"Dakota Bellweather, Cody Ridgeway"
+11:00AM,11:40AM,Event,C413 (WRITTEN),21 - Sawyer Dorsey,IMCP,Vera Jessup
+11:00AM,11:40AM,Event,C413 (WRITTEN),4 - Ulla Kilgore,BOR,"Nox Rutherford, Cody Quintero"
+11:00AM,11:40AM,Event,C415 (ROLEPLAY),14 - Gio Upshaw,PEN,Linden Larkspur
+11:00AM,11:40AM,Event,C415 (ROLEPLAY),23 - Vesper Ibsen,PHT,Kit Dorsey
+11:00AM,11:40AM,Event,C415 (ROLEPLAY),29 - Gale Kilgore,PBM,Emerson Pruitt
+11:00AM,11:40AM,Event,C415 (ROLEPLAY),35 - Skyler Quillon,PEN,Denver Danforth
+11:00AM,11:40AM,Event,C415 (ROLEPLAY),41 - Haven Dorsey,PFL,Jesse Castellano
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),1 - Wynn Quimby,SEOR,"River Lemoine, Noel Thornbury, Sable Stroud"
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),10 - Reagan Brightwater,ESB,"Lior Selwyn, Yara Ellery"
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),11 - Mars Yarrow,ESB,"Caelan Novak, Remy Hemsworth"
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),16 - Rowan Hollingsworth,EIP,Harper Underwood
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),18 - Nico Barlow,IMCE,Wesley Zeller
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),20 - Bailey Yale,EIP,Gio Stroud
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),3 - Pax Dunmore,BMOR,"Indigo Follett, Vin Fitzgerald"
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),5 - Bodhi Kirkpatrick,FOR,Nox Cranfield
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),6 - Yara Zamora,BOR,Denver Chandler
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),8 - Cody Prescott,IBP,"Ollie Ito, Tanner Thackery, Neve Castellano"
+11:00AM,11:40AM,Event,Conservatory Hall (WRITTEN),9 - Miles Vandermeer,ESB,"Devon Bellweather, Esme Wexford"
+11:00AM,11:40AM,Event,TBD (ROLEPLAY),27 - Tanner Castellano,PEN,Haven Pickering
+11:00AM,11:40AM,Event,TBD (ROLEPLAY),33 - Nico Wrenfield,PEN,Adrian Ellingham
+11:40AM,12:20PM,Event,C307 (ROLEPLAY),15 - Sage Ibsen,HLM,Opal Vasquez
+11:40AM,12:20PM,Event,C307 (ROLEPLAY),24 - Quill Larkspur,PFN,Logan Quarles
+11:40AM,12:20PM,Event,C307 (ROLEPLAY),30 - Yuki Ellingham,PMK,Vale Sandoval
+11:40AM,12:20PM,Event,C307 (ROLEPLAY),36 - Rune Hawthorne,PHT,Rune Hollingsworth
+11:40AM,12:20PM,Event,C307 (ROLEPLAY),42 - Cove Lockwood,MCS,Fable Quintanilla
+11:40AM,12:20PM,Event,C309 (ROLEPLAY),25 - Cody Lockwood,PHT,Casey Lindqvist
+11:40AM,12:20PM,Event,C309 (ROLEPLAY),31 - Hale Merriweather,PMK,Kai Nesbitt
+11:40AM,12:20PM,Event,C309 (ROLEPLAY),37 - Rune Doyle,PMK,Casey Quintanilla
+11:40AM,12:20PM,Event,C309 (ROLEPLAY),38 - Onyx Halloway,MCS,Palmer Zimmerman
+11:40AM,12:20PM,Event,C309 (ROLEPLAY),43 - Prin Stroud,SEM,Jamie Alderton
+11:40AM,12:20PM,Event,C408 (ROLEPLAY),12 - Zephyr Yarrow,MTDM,"Iris Nesbitt, Yara Rutherford"
+11:40AM,12:20PM,Event,C408 (ROLEPLAY),26 - Odin Nakamura,PFN,Wesley Ellery
+11:40AM,12:20PM,Event,C408 (ROLEPLAY),32 - Grayson Quarles,PHT,Gio Dorsey
+11:40AM,12:20PM,Event,C408 (ROLEPLAY),39 - Wynn Kettering,ENT,Fable Pickering
+11:40AM,12:20PM,Event,C410 (ROLEPLAY),13 - Odin Follett,TTDM,"Cyan Ashby, Dune Vandergrift"
+11:40AM,12:20PM,Event,C410 (ROLEPLAY),22 - Wilder Cranfield,PBM,Lane Galloway
+11:40AM,12:20PM,Event,C410 (ROLEPLAY),28 - Nell Kettering,PFN,Onyx Lockwood
+11:40AM,12:20PM,Event,C410 (ROLEPLAY),34 - Arden Goodwin,PEN,Rory Zaragoza
+11:40AM,12:20PM,Event,C410 (ROLEPLAY),40 - Neve Quillon,ENT,Zara Quimby
+11:40AM,12:20PM,Event,C413 (WRITTEN),17 - Kit Lockwood,IMCS,"Iris Ivanov, Gio Ivanov"
+11:40AM,12:20PM,Event,C413 (WRITTEN),19 - Cody Lindqvist,PSE,Gale Grimsby
+11:40AM,12:20PM,Event,C413 (WRITTEN),2 - Kai Tilden,BMOR,"Blake Lindqvist, Opal Granger"
+11:40AM,12:20PM,Event,C413 (WRITTEN),21 - Sawyer Dorsey,EIB,Winter Selwyn
+11:40AM,12:20PM,Event,C413 (WRITTEN),4 - Ulla Kilgore,SEOR,"Shiloh Ellingham, Shiloh Quarles"
+11:40AM,12:20PM,Event,C415 (ROLEPLAY),14 - Gio Upshaw,QSRM,Odin Wexford
+11:40AM,12:20PM,Event,C415 (ROLEPLAY),23 - Vesper Ibsen,PHT,Alex Underwood
+11:40AM,12:20PM,Event,C415 (ROLEPLAY),29 - Gale Kilgore,PMK,Hana Zamora
+11:40AM,12:20PM,Event,C415 (ROLEPLAY),35 - Skyler Quillon,PFN,Sasha Thackery
+11:40AM,12:20PM,Event,C415 (ROLEPLAY),41 - Haven Dorsey,AAM,Tatum Bracken
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),1 - Wynn Quimby,HTOR,"Nova Halloway, Reagan Fairbanks, Ember Upshaw"
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),10 - Reagan Brightwater,EIB,"Parker Westbrook, Wynn Wrenfield"
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),11 - Mars Yarrow,ESB,Bodhi Pruitt
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),16 - Rowan Hollingsworth,PSE,Skyler Edgerton
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),18 - Nico Barlow,IMCE,Tobin Rothwell
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),20 - Bailey Yale,PSE,Rory Zimmerman
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),3 - Pax Dunmore,HTOR,"Lumen Tremaine, Nell Marbury"
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),5 - Bodhi Kirkpatrick,SEOR,Onyx Gilchrist
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),6 - Yara Zamora,IBP,Ollie Ulster
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),7 - Umi Quillon,FCE,Lior Wrenfield
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),8 - Cody Prescott,EIP,"Jules Zamora, Oakley Hawthorne, Rory Nakamura"
+11:40AM,12:20PM,Event,Conservatory Hall (WRITTEN),9 - Miles Vandermeer,EFB,"Dov Ivanov, Zephyr Kowalski"
+11:40AM,12:20PM,Event,TBD (ROLEPLAY),27 - Tanner Castellano,PFN,Cameron Ivanov
+11:40AM,12:20PM,Event,TBD (ROLEPLAY),33 - Nico Wrenfield,PMK,Remy Ormsby
+9:00AM,9:40AM,Exam,-,-,,Adrian Ellingham
+9:00AM,9:40AM,Exam,-,-,,Bellamy Ashby
+9:00AM,9:40AM,Exam,-,-,,Blake Lindqvist
+9:00AM,9:40AM,Exam,-,-,,Bodhi Ellingham
+9:00AM,9:40AM,Exam,-,-,,Brix Nesbitt
+9:00AM,9:40AM,Exam,-,-,,Caelan Novak
+9:00AM,9:40AM,Exam,-,-,,Cameron Fitzgerald
+9:00AM,9:40AM,Exam,-,-,,Cameron Ivanov
+9:00AM,9:40AM,Exam,-,-,,Casey Lindqvist
+9:00AM,9:40AM,Exam,-,-,,Casey Quintanilla
+9:00AM,9:40AM,Exam,-,-,,Cass Dorsey
+9:00AM,9:40AM,Exam,-,-,,Cody Quintero
+9:00AM,9:40AM,Exam,-,-,,Dakota Bellweather
+9:00AM,9:40AM,Exam,-,-,,Delaney Ostrander
+9:00AM,9:40AM,Exam,-,-,,Denver Chandler
+9:00AM,9:40AM,Exam,-,-,,Denver Danforth
+9:00AM,9:40AM,Exam,-,-,,Denver Jorgensen
+9:00AM,9:40AM,Exam,-,-,,Devon Bellweather
+9:00AM,9:40AM,Exam,-,-,,Dov Ivanov
+9:00AM,9:40AM,Exam,-,-,,Dov Northcott
+9:00AM,9:40AM,Exam,-,-,,Echo Harrowgate
+9:00AM,9:40AM,Exam,-,-,,Emerson Pruitt
+9:00AM,9:40AM,Exam,-,-,,Fable Pickering
+9:00AM,9:40AM,Exam,-,-,,Fable Quintanilla
+9:00AM,9:40AM,Exam,-,-,,Gio Dorsey
+9:00AM,9:40AM,Exam,-,-,,Gio Stroud
+9:00AM,9:40AM,Exam,-,-,,Hana Zamora
+9:00AM,9:40AM,Exam,-,-,,Harper Underwood
+9:00AM,9:40AM,Exam,-,-,,Haven Bellweather
+9:00AM,9:40AM,Exam,-,-,,Haven Pickering
+9:00AM,9:40AM,Exam,-,-,,Hollis Tanaka
+9:00AM,9:40AM,Exam,-,-,,Indigo Follett
+9:00AM,9:40AM,Exam,-,-,,Iris Ivanov
+9:00AM,9:40AM,Exam,-,-,,Iris Nesbitt
+9:00AM,9:40AM,Exam,-,-,,Jules Zamora
+9:00AM,9:40AM,Exam,-,-,,Linden Larkspur
+9:00AM,9:40AM,Exam,-,-,,Lior Wrenfield
+9:00AM,9:40AM,Exam,-,-,,Logan Quarles
+9:00AM,9:40AM,Exam,-,-,,Lumen Brightwater
+9:00AM,9:40AM,Exam,-,-,,Lumen Tremaine
+9:00AM,9:40AM,Exam,-,-,,Nell Marbury
+9:00AM,9:40AM,Exam,-,-,,Neve Castellano
+9:00AM,9:40AM,Exam,-,-,,Noel Thornbury
+9:00AM,9:40AM,Exam,-,-,,Nova Halloway
+9:00AM,9:40AM,Exam,-,-,,Nox Cranfield
+9:00AM,9:40AM,Exam,-,-,,Nox Rutherford
+9:00AM,9:40AM,Exam,-,-,,Oakley Hawthorne
+9:00AM,9:40AM,Exam,-,-,,Odin Wexford
+9:00AM,9:40AM,Exam,-,-,,Ollie Ito
+9:00AM,9:40AM,Exam,-,-,,Onyx Gilchrist
+9:00AM,9:40AM,Exam,-,-,,Onyx Lockwood
+9:00AM,9:40AM,Exam,-,-,,Opal Granger
+9:00AM,9:40AM,Exam,-,-,,Opal Vasquez
+9:00AM,9:40AM,Exam,-,-,,Palmer Zimmerman
+9:00AM,9:40AM,Exam,-,-,,Parker Westbrook
+9:00AM,9:40AM,Exam,-,-,,Poe Doyle
+9:00AM,9:40AM,Exam,-,-,,Remy Ormsby
+9:00AM,9:40AM,Exam,-,-,,River Cranfield
+9:00AM,9:40AM,Exam,-,-,,Rory Nakamura
+9:00AM,9:40AM,Exam,-,-,,Rory Zaragoza
+9:00AM,9:40AM,Exam,-,-,,Rune Hollingsworth
+9:00AM,9:40AM,Exam,-,-,,Sasha Thackery
+9:00AM,9:40AM,Exam,-,-,,Shiloh Ellingham
+9:00AM,9:40AM,Exam,-,-,,Shiloh Quarles
+9:00AM,9:40AM,Exam,-,-,,Skyler Edgerton
+9:00AM,9:40AM,Exam,-,-,,Tanner Thackery
+9:00AM,9:40AM,Exam,-,-,,Tatum Bracken
+9:00AM,9:40AM,Exam,-,-,,Tatum Quillon
+9:00AM,9:40AM,Exam,-,-,,Thea Tilden
+9:00AM,9:40AM,Exam,-,-,,Umi Grimsby
+9:00AM,9:40AM,Exam,-,-,,Umi Mortimer
+9:00AM,9:40AM,Exam,-,-,,Vale Sandoval
+9:00AM,9:40AM,Exam,-,-,,Vin Fitzgerald
+9:00AM,9:40AM,Exam,-,-,,Vin Underwood
+9:00AM,9:40AM,Exam,-,-,,Wesley Ellery
+9:00AM,9:40AM,Exam,-,-,,Wesley Zeller
+9:00AM,9:40AM,Exam,-,-,,Winter Selwyn
+9:00AM,9:40AM,Exam,-,-,,Wynn Wrenfield
+9:00AM,9:40AM,Exam,-,-,,Yara Ellery
+9:00AM,9:40AM,Exam,-,-,,Zara Quimby
+9:00AM,9:40AM,Exam,-,-,,Zephyr Kowalski
+9:40AM,10:20AM,Exam,-,-,,Adrian Ibsen
+9:40AM,10:20AM,Exam,-,-,,Alex Underwood
+9:40AM,10:20AM,Exam,-,-,,Amari Zamora
+9:40AM,10:20AM,Exam,-,-,,Arden Vandermeer
+9:40AM,10:20AM,Exam,-,-,,Avery Lockwood
+9:40AM,10:20AM,Exam,-,-,,Bodhi Pruitt
+9:40AM,10:20AM,Exam,-,-,,Briar Zaragoza
+9:40AM,10:20AM,Exam,-,-,,Caelan Ibsen
+9:40AM,10:20AM,Exam,-,-,,Cameron Quimby
+9:40AM,10:20AM,Exam,-,-,,Cass Novak
+9:40AM,10:20AM,Exam,-,-,,Cyan Ashby
+9:40AM,10:20AM,Exam,-,-,,Dune Vandergrift
+9:40AM,10:20AM,Exam,-,-,,Eden Wilcox
+9:40AM,10:20AM,Exam,-,-,,Ember Upshaw
+9:40AM,10:20AM,Exam,-,-,,Emerson Vandergrift
+9:40AM,10:20AM,Exam,-,-,,Esme Wexford
+9:40AM,10:20AM,Exam,-,-,,Fable Wrenfield
+9:40AM,10:20AM,Exam,-,-,,Fern Abbott
+9:40AM,10:20AM,Exam,-,-,,Fern Grimsby
+9:40AM,10:20AM,Exam,-,-,,Ford Kingsley
+9:40AM,10:20AM,Exam,-,-,,Ford Merriweather
+9:40AM,10:20AM,Exam,-,-,,Gale Grimsby
+9:40AM,10:20AM,Exam,-,-,,Gio Ivanov
+9:40AM,10:20AM,Exam,-,-,,Greer Vandermeer
+9:40AM,10:20AM,Exam,-,-,,Hale Gilchrist
+9:40AM,10:20AM,Exam,-,-,,Hale Granger
+9:40AM,10:20AM,Exam,-,-,,Hollis Edgerton
+9:40AM,10:20AM,Exam,-,-,,Hollis Kirkpatrick
+9:40AM,10:20AM,Exam,-,-,,Jamie Alderton
+9:40AM,10:20AM,Exam,-,-,,Jesse Castellano
+9:40AM,10:20AM,Exam,-,-,,Kai Nesbitt
+9:40AM,10:20AM,Exam,-,-,,Kai Umberto
+9:40AM,10:20AM,Exam,-,-,,Kit Bracken
+9:40AM,10:20AM,Exam,-,-,,Kit Dorsey
+9:40AM,10:20AM,Exam,-,-,,Lane Galloway
+9:40AM,10:20AM,Exam,-,-,,Lior Selwyn
+9:40AM,10:20AM,Exam,-,-,,Maren Hemsworth
+9:40AM,10:20AM,Exam,-,-,,Nico Dunmore
+9:40AM,10:20AM,Exam,-,-,,Oakley Langford
+9:40AM,10:20AM,Exam,-,-,,Ollie Ulster
+9:40AM,10:20AM,Exam,-,-,,Opal Thackery
+9:40AM,10:20AM,Exam,-,-,,Orion Whitfield
+9:40AM,10:20AM,Exam,-,-,,Parker Vasquez
+9:40AM,10:20AM,Exam,-,-,,Quill Caldwell
+9:40AM,10:20AM,Exam,-,-,,Quinn Prescott
+9:40AM,10:20AM,Exam,-,-,,Remy Fitzgerald
+9:40AM,10:20AM,Exam,-,-,,Remy Hemsworth
+9:40AM,10:20AM,Exam,-,-,,River Lemoine
+9:40AM,10:20AM,Exam,-,-,,Rory Zimmerman
+9:40AM,10:20AM,Exam,-,-,,Rune Hemsworth
+9:40AM,10:20AM,Exam,-,-,,Sable Stroud
+9:40AM,10:20AM,Exam,-,-,,Shiloh Nakamura
+9:40AM,10:20AM,Exam,-,-,,Skyler Gilchrist
+9:40AM,10:20AM,Exam,-,-,,Sol Ingram
+9:40AM,10:20AM,Exam,-,-,,Thea Selwyn
+9:40AM,10:20AM,Exam,-,-,,Tobin Rothwell
+9:40AM,10:20AM,Exam,-,-,,Vera Jessup
+9:40AM,10:20AM,Exam,-,-,,Wesley Edgerton
+9:40AM,10:20AM,Exam,-,-,,Yara Rutherford
+9:40AM,10:20AM,Exam,-,-,,Zara Nesbitt
+9:40AM,10:20AM,Exam,-,-,,Zion Somerset
+,,UNASSIGNED,-,-,IBP,"Vin Underwood, Tanner Thackery, Neve Castellano"
+,,UNASSIGNED,-,-,HTDM,"Hollis Tanaka, Yara Ellery"
+,,UNASSIGNED,-,-,PEN,Neve Castellano
+,,UNASSIGNED,-,-,PEN,Tanner Thackery
