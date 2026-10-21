@@ -11,6 +11,7 @@ from datetime import datetime
 from .types import Time, Constraints, Registration
 from .csv_parser import (
     parse_students, parse_requests, parse_judges, parse_rooms, parse_events,
+    parse_participation, apply_participation,
     parse_time, parse_divisions, parse_number
 )
 from .scheduler import schedule, new_context
@@ -55,6 +56,7 @@ def main():
     
     students = parse_students(student_data)
     requests = parse_requests(student_data, students)
+    participation = parse_participation(student_data)
     
     logging.info("================================== Registered students")
     for student in students:
@@ -89,6 +91,7 @@ def main():
         for row in conference_data if column(row, "Event")
     ]
     events = parse_events(event_data)
+    requests = apply_participation(requests, events, participation)
 
     start_time = parse_time([column(conference_data[0], "Start Time")])
 

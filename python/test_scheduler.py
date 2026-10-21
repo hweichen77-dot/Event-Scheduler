@@ -9,7 +9,10 @@ from .types import (
     Registration, StudentRequest, Assignment
 )
 from .common import unordered_equal, intersects, has_adjacent
-from .csv_parser import split_name, parse_event_type, find_student
+from .csv_parser import (
+    split_name, parse_event_type, find_student, parse_participation_value,
+    parse_participation, apply_participation, ONLY_WRITTEN, ONLY_ROLEPLAY, WRITTEN_AND_ROLEPLAY,
+)
 from .scheduler import new_context, schedule
 
 
@@ -82,6 +85,40 @@ class TestCSVParser(unittest.TestCase):
         student, is_new = find_student(students, "Bob", "Johnson")
         self.assertTrue(is_new)
         self.assertEqual(student.email, "bob.johnson@warriorlife.net")
+
+
+class TestParticipation(unittest.TestCase):
+
+    def test_parse_participation_value(self):
+        self.assertEqual(parse_participation_value("ONLY Written"), ONLY_WRITTEN)
+        self.assertEqual(parse_participation_value(" only  written "), ONLY_WRITTEN)
+        self.assertEqual(parse_participation_value("ONLY Roleplay"), ONLY_ROLEPLAY)
+        self.assertEqual(parse_participation_value("Written and Roleplay"), WRITTEN_AND_ROLEPLAY)
+        self.assertEqual(parse_participation_value(""), WRITTEN_AND_ROLEPLAY)
+
+    def test_apply_participation(self):
+        events = [
+            Event(id="PEN", event_type=EventType.ROLEPLAY),
+            Event(id="STDM", event_type=EventType.ROLEPLAY),
+            Event(id="ESB", event_type=EventType.WRITTEN),
+        ]
+        lines = [
+            ["w@x.net", "", "", "ESB", "", "", "", "", "", "", "ONLY Written"],
+            ["r@x.net", "", "", "STDM", "", "", "", "", "w@x.net", "", "ONLY Roleplay"],
+            ["b@x.net", "", "", "PEN", "", "", "", "", "", ""],
+        ]
+        requests = [
+            StudentRequest(event="ESB", group=["w@x.net"]),
+            StudentRequest(event="PEN", group=["w@x.net"]),
+            StudentRequest(event="STDM", group=["r@x.net", "w@x.net"]),
+            StudentRequest(event="ESB", group=["r@x.net", "w@x.net"]),
+            StudentRequest(event="PEN", group=["b@x.net"]),
+        ]
+        got = apply_participation(requests, events, parse_participation(lines))
+        self.assertEqual(
+            [(r.event, r.group) for r in got],
+            [("ESB", ["w@x.net"]), ("STDM", ["r@x.net"]), ("ESB", ["w@x.net"]), ("PEN", ["b@x.net"])],
+        )
 
 
 class TestScheduler(unittest.TestCase):

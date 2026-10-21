@@ -46,6 +46,7 @@ func main() {
 	parsedStudents, byEmail := ParseStudents(lines)
 	students := &parsedStudents
 	requests := ParseRequests(lines, students, byEmail)
+	participation := ParseParticipation(lines)
 
 	log.Println("================================== Registered students")
 	for _, s := range *students {
@@ -71,6 +72,7 @@ func main() {
 	judges := ParseJudges(judgeDf.Records()[1:])
 	rooms := ParseRooms(conferenceDf.Select([]string{"Room", "Judge Capacity", "Room Event Type"}).Records()[1:])
 	events := ParseEvents(conferenceDf.Select([]string{"Event", "Event Type"}).Records()[1:])
+	requests = ApplyParticipation(requests, events, participation)
 
 	startTime := ParseTime(conferenceDf.Select([]string{"Start Time"}).Records()[1])
 	divisions := ParseDivisions(conferenceDf.Select([]string{"Time Slot"}).Records()[1:])

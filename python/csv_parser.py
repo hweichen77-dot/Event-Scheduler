@@ -128,6 +128,68 @@ def parse_requests(lines: List[List[str]], students: List[Student]) -> List[Stud
     return requests
 
 
+WRITTEN_AND_ROLEPLAY = "written and roleplay"
+ONLY_WRITTEN = "only written"
+ONLY_ROLEPLAY = "only roleplay"
+
+
+def parse_participation_value(text: str) -> str:
+    normalized = " ".join(text.lower().split())
+    if normalized in (ONLY_WRITTEN, "written only"):
+        return ONLY_WRITTEN
+    if normalized in (ONLY_ROLEPLAY, "roleplay only"):
+        return ONLY_ROLEPLAY
+    return WRITTEN_AND_ROLEPLAY
+
+
+def parse_participation(lines: List[List[str]]) -> dict:
+    participation = {}
+    for line in lines:
+        email = cell(line, 0).lower()
+        if not email:
+            continue
+        value = parse_participation_value(cell(line, 10))
+        if value != WRITTEN_AND_ROLEPLAY:
+            participation[email] = value
+    return participation
+
+
+def skips_event_type(participation: str, event_type: EventType) -> bool:
+    return (participation == ONLY_WRITTEN and event_type == EventType.ROLEPLAY) or (
+        participation == ONLY_ROLEPLAY and event_type == EventType.WRITTEN
+    )
+
+
+def apply_participation(
+    requests: List[StudentRequest], events: List[Event], participation: dict
+) -> List[StudentRequest]:
+    types = {e.id: e.event_type for e in events}
+    kept = []
+    for request in requests:
+        event_type = types.get(request.event)
+        if event_type is None:
+            kept.append(request)
+            continue
+        group = []
+        for email in request.group:
+            if skips_event_type(participation.get(email, WRITTEN_AND_ROLEPLAY), event_type):
+                logging.info(
+                    f"[INFO] {email} is only doing one event type at this conference, "
+                    f"leaving them out of {request.event}"
+                )
+                continue
+            group.append(email)
+        if not group:
+            continue
+        if request.event.endswith("TDM") and len(group) < 2 and len(request.group) >= 2:
+            logging.warning(
+                f"[WARN] {request.event} is a team event but only {group[0]} is left "
+                f"after removing teammates who skip roleplays"
+            )
+        kept.append(StudentRequest(event=request.event, group=group))
+    return kept
+
+
 def parse_judges(rows: List[List[str]]) -> List[Judge]:
     """Parse judges from CSV rows."""
     judges = []

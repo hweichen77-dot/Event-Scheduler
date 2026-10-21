@@ -268,3 +268,89 @@ func ParseNumber(row []string) int32 {
 	}
 	return int32(groupSize)
 }
+
+type Participation int
+
+const (
+	WrittenAndRoleplay Participation = iota
+	OnlyWritten
+	OnlyRoleplay
+)
+
+func ParseParticipationValue(text string) Participation {
+	normalized := strings.Join(strings.Fields(strings.ToLower(text)), " ")
+	switch normalized {
+	case "only written", "written only":
+		return OnlyWritten
+	case "only roleplay", "roleplay only":
+		return OnlyRoleplay
+	}
+	return WrittenAndRoleplay
+}
+
+func ParseParticipation(lines [][]string) map[string]Participation {
+	participation := map[string]Participation{}
+	for _, l := range lines {
+		email := strings.ToLower(Cell(l, 0))
+		if email == "" {
+			continue
+		}
+		if value := ParseParticipationValue(Cell(l, 10)); value != WrittenAndRoleplay {
+			participation[email] = value
+		}
+	}
+	return participation
+}
+
+func SkipsEventType(p Participation, eventType proto.EventType) bool {
+	return (p == OnlyWritten && eventType == proto.EventType_ROLEPLAY) ||
+		(p == OnlyRoleplay && eventType == proto.EventType_WRITTEN)
+}
+
+func ApplyParticipation(
+	requests []*proto.StudentRequest,
+	events []*proto.Event,
+	participation map[string]Participation,
+) []*proto.StudentRequest {
+	types := map[string]proto.EventType{}
+	for _, e := range events {
+		types[e.Id] = e.EventType
+	}
+
+	kept := []*proto.StudentRequest{}
+	for _, r := range requests {
+		eventType, ok := types[r.Event]
+		if !ok {
+			kept = append(kept, r)
+			continue
+		}
+
+		group := []string{}
+		for _, email := range r.Group {
+			if SkipsEventType(participation[email], eventType) {
+				scheduler.Info(fmt.Sprintf(
+					"%v is only doing one event type at this conference, leaving them out of %v",
+					email, r.Event,
+				))
+				continue
+			}
+			group = append(group, email)
+		}
+
+		if len(group) == 0 {
+			continue
+		}
+		if strings.HasSuffix(r.Event, "TDM") && len(group) < 2 && len(r.Group) >= 2 {
+			scheduler.Warn(fmt.Sprintf(
+				"%v is a team event but only %v is left after removing teammates who skip roleplays",
+				r.Event, group[0],
+			))
+		}
+
+		kept = append(kept, &proto.StudentRequest{
+			Event: r.Event,
+			Group: group,
+		})
+	}
+	return kept
+}
