@@ -97,6 +97,7 @@ class Housing:
 class Exam:
     start: int
     student: Student
+    name: str = ""
 
 
 @dataclass

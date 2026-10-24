@@ -69,7 +69,7 @@ func NewContext(
 }
 
 func Schedule(c ScheduleContext, requests []*proto.StudentRequest) Output {
-	shouldTakeExam := make(map[string]bool)
+	examEvent := make(map[string]string)
 
 	assignments := []Assignment{}
 assignments:
@@ -106,7 +106,7 @@ assignments:
 
 		if event.EventType == proto.EventType_ROLEPLAY {
 			for _, student := range r.Group {
-				shouldTakeExam[student] = true
+				examEvent[student] = event.Id
 			}
 		}
 
@@ -291,7 +291,8 @@ assignments:
 	})
 students:
 	for _, s := range examCandidates {
-		if !shouldTakeExam[s.Email] {
+		eventID, ok := examEvent[s.Email]
+		if !ok {
 			continue
 		}
 
@@ -307,6 +308,7 @@ students:
 					exams = append(exams, Exam{
 						Start:   start,
 						Student: s,
+						Name:    ExamFor(eventID),
 					})
 					continue students
 				}

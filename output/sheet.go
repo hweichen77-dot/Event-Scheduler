@@ -81,6 +81,7 @@ func Sheet(f io.Writer, o scheduler.Output) error {
 			end:    end.Format(time.Kitchen),
 			room:   "-",
 			judge:  "-",
+			event:  e.Name,
 			people: fmt.Sprintf("%s %s", e.Student.Firstname, e.Student.Lastname),
 		})
 	}

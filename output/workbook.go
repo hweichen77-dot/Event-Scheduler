@@ -162,7 +162,7 @@ func sheets(o scheduler.Output) []sheet {
 		student := fmt.Sprintf("%s %s", e.Student.Firstname, e.Student.Lastname)
 		exams = append(exams, examRow{
 			slot: e.Start, student: student,
-			cells: []string{start.Format(time.Kitchen), end.Format(time.Kitchen), student},
+			cells: []string{start.Format(time.Kitchen), end.Format(time.Kitchen), student, e.Name},
 		})
 	}
 	sort.SliceStable(exams, func(i, j int) bool {
@@ -211,7 +211,7 @@ func sheets(o scheduler.Output) []sheet {
 		return reviews[i].people < reviews[j].people
 	})
 
-	examRows := [][]string{{"Start", "End", "Student"}}
+	examRows := [][]string{{"Start", "End", "Student", "Exam"}}
 	for _, r := range exams {
 		examRows = append(examRows, r.cells)
 	}

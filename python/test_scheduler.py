@@ -14,6 +14,7 @@ from .csv_parser import (
     parse_participation, apply_participation, ONLY_WRITTEN, ONLY_ROLEPLAY, WRITTEN_AND_ROLEPLAY,
 )
 from .scheduler import new_context, schedule
+from .exams import exam_for
 
 
 class TestCommon(unittest.TestCase):
@@ -183,6 +184,17 @@ class TestScheduler(unittest.TestCase):
         self.assertIsNotNone(output)
         self.assertEqual(len(output.housings), 2)
         self.assertGreaterEqual(len(output.exams), 0)  # May have exams for roleplay events
+
+
+class TestExams(unittest.TestCase):
+
+    def test_exam_for(self):
+        self.assertEqual(exam_for("PEN"), "Business Administration Core")
+        self.assertEqual(exam_for("HRM"), "Business Management + Administration")
+        self.assertEqual(exam_for("TTDM"), "Hospitality + Tourism")
+        self.assertEqual(exam_for("SEM"), "Marketing")
+        self.assertEqual(exam_for("PFL"), "Personal Financial Literacy")
+        self.assertEqual(exam_for("ESB"), "")
 
 
 class TestTypes(unittest.TestCase):

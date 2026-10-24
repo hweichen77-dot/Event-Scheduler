@@ -9,6 +9,7 @@ from .types import (
     Housing, Exam, Output, EventType, Time, Constraints, Registration,
     Unplaced, Override
 )
+from .exams import exam_for
 from .common import unordered_equal, intersects, has_adjacent, keys
 
 
@@ -51,7 +52,7 @@ def new_context(time: Time, constraints: Constraints, registration: Registration
 
 def schedule(context: ScheduleContext, requests: List[StudentRequest]) -> Output:
     """Main scheduling algorithm."""
-    should_take_exam = {}
+    exam_event = {}
     
     assignments = []
     
@@ -80,7 +81,7 @@ def schedule(context: ScheduleContext, requests: List[StudentRequest]) -> Output
         # Mark students for exam if it's a roleplay event
         if event.event_type == EventType.ROLEPLAY:
             for student_email in request.group:
-                should_take_exam[student_email] = True
+                exam_event[student_email] = event.id
         
         # Check for duplicate requests
         duplicate = False
@@ -219,7 +220,7 @@ def schedule(context: ScheduleContext, requests: List[StudentRequest]) -> Output
     exams = []
     exam_candidates = sorted(context.students.values(), key=lambda s: s.email)
     for student in exam_candidates:
-        if not should_take_exam.get(student.email, False):
+        if student.email not in exam_event:
             continue
         
         occupied = calculate_occupied([student])
@@ -230,7 +231,7 @@ def schedule(context: ScheduleContext, requests: List[StudentRequest]) -> Output
             if i not in occupied:
                 sum_duration += context.time.divisions[i]
                 if sum_duration >= context.constraints.exam_length:
-                    exams.append(Exam(start=start, student=student))
+                    exams.append(Exam(start=start, student=student, name=exam_for(exam_event[student.email])))
                     break
                 continue
             else:

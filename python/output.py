@@ -56,7 +56,7 @@ def write_csv(file: TextIO, output: Output) -> None:
         end = start + timedelta(minutes=output.context.constraints.exam_length)
         rows.append((
             1, exam.start, "-", "-",
-            [kitchen(start), kitchen(end), "Exam", "-", "-", "",
+            [kitchen(start), kitchen(end), "Exam", "-", "-", exam.name,
              f"{exam.student.firstname} {exam.student.lastname}"],
         ))
 
@@ -146,7 +146,7 @@ def sheets(output: Output) -> List[Tuple[str, Sequence[Sequence[str]]]]:
         start = slot_start(output, exam.start)
         end = start + timedelta(minutes=output.context.constraints.exam_length)
         student = f"{exam.student.firstname} {exam.student.lastname}".strip()
-        exams.append((exam.start, student, [kitchen(start), kitchen(end), student]))
+        exams.append((exam.start, student, [kitchen(start), kitchen(end), student, exam.name]))
     exams.sort(key=lambda r: (r[0], r[1]))
 
     unassigned = []
@@ -169,7 +169,7 @@ def sheets(output: Output) -> List[Tuple[str, Sequence[Sequence[str]]]]:
     return [
         ("Roleplay", roleplay_rows, roleplay_merges),
         ("Written", written_rows, written_merges),
-        ("Exams", [["Start", "End", "Student"]] + [r[2] for r in exams], []),
+        ("Exams", [["Start", "End", "Student", "Exam"]] + [r[2] for r in exams], []),
         ("Unassigned",
          [["Event", "Participants", "Why it could not be scheduled"]]
          + [r[2] for r in unassigned], []),

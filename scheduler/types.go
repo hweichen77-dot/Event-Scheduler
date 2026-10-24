@@ -28,6 +28,7 @@ type Override struct {
 type Exam struct {
 	Start   int
 	Student *proto.Student
+	Name    string
 }
 
 type Housing struct {
